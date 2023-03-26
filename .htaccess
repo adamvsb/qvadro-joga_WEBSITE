@@ -1,3 +1,0 @@
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^www.qvadro-joga.cz [NC]
-RewriteRule ^(.*)$ http://qvadro-joga.cz/$1 [L,R=301]
